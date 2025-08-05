@@ -5,8 +5,8 @@ This repository contains a modular implementation of SLIP, a framework for handl
 ## Project Structure
 
 - `data_loader.py` — Functions for loading and preprocessing data.
-- `model.py` — Model architecture and related components.
-- `train.py` — Training and evaluation routines.
+- `models.py` — Model architecture and related components.
+- `SLIPSupervisor` — Training and evaluation routines.
 - `main.py` — Main script to execute training and experiments.
 
 ## Setup
