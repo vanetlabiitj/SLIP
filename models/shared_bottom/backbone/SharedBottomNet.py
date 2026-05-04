@@ -91,6 +91,6 @@ class SharedBottomNet(nn.Module):
 
         # Concatenation and Final Output
         concatenated_logits = torch.cat((out1, out2, out3), dim=1)
-        out_final = self.linear_final(concatenated_logits)
+        #out_final = self.linear_final(concatenated_logits)
         #out_final = self.sigmoid(out_final)
         return out_final
