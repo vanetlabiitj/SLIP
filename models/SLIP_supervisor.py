@@ -4,6 +4,7 @@ import numpy as np
 from dataset.dataloader import CustomDataLoader
 from models.shared_bottom.backbone.SharedBottomNet import SharedBottomNet
 from models.shared_bottom.loss.RFL import RFL
+from models.shared_bottom.loss.MFM import MFM
 
 
 class SLIPSupervisor:
